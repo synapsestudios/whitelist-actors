@@ -1,0 +1,9 @@
+name: "Whitelist actors"
+description: "Github action that causes a failure if the actor in the github context does not match a whitelisted username"
+inputs:
+  whitelist:
+    description: "Comma-separated list of whitelisted github usernames"
+    required: true
+runs:
+  using: "node12"
+  main: "index.js"

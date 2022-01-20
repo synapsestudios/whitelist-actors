@@ -1,0 +1,25 @@
+{
+  "name": "whitelist-actors",
+  "version": "1.0.0",
+  "description": "Github action that causes a failure if the actor in the github context does not match a whitelisted username",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha src",
+    "prettier": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synapsestudios/whitelist-actors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/synapsestudios/whitelist-actors/issues"
+  },
+  "homepage": "https://github.com/synapsestudios/whitelist-actors#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.4",
+    "prettier": "^2.5.1"
+  }
+}
