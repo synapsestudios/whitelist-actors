@@ -1,5 +1,5 @@
 function getActor() {
-  return process.env.GITHUB_ACTOR;
+  return process.env.GITHUB_ACTOR.toLowerCase().trim();
 }
 
 function getWhitelist() {
